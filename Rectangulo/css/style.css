@@ -1,0 +1,54 @@
+body{
+	background: blue;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+.rectangulo{
+	background: green;
+	height: 200px;
+	width: 500px;
+	position: relative;
+	animation: rectangulo 10s infinite;
+}
+
+@keyframes rectangulo{
+	0%{
+		left: 20%;
+		height: 200px;
+		width: 500px;
+	}
+	50%{
+		left: 20%;
+		height: 200px;
+		width: 500px;
+	}
+	60%{
+		left: 60%;
+		height: 50px;
+		width: 175px;
+	}
+	70%{
+		left: 80%;
+		height: 20px;
+		width: 50px;
+	}
+	80%{
+		left: 30%;
+		height: 100px;
+		width: 250px;
+	}
+	90%{
+		left: 50%;
+		height: 500px;
+		width: 200px;
+	}
+	100%{
+		left: 20%;
+		height: 200px;
+	 	width: 500px;
+	}
+}
