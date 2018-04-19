@@ -1,0 +1,124 @@
+body{
+	background: #00080D;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+.pacman{
+	margin: 100px 0 0 0;
+}
+
+.pacman1{
+	background: yellow;
+	height: 50px;
+	width: 100px;
+	border-radius: 50px 50px 0 0;
+	position: relative;
+	animation: pacman1 3s infinite;
+}
+
+.pacman2{
+	background: yellow;
+	height: 50px;
+	width: 100px;
+	border-radius: 0 0 50px 50px;
+	position: relative;
+	animation: pacman2 3s infinite;
+}
+
+@keyframes pacman1{
+	0%{
+		transform: rotate(0deg);
+		left: 0%;
+	}
+	10%{
+		transform: rotate(-45deg);
+		left: 10%;
+	}
+	20%{
+		transform: rotate(0deg);
+		left: 20%;
+	}
+	30%{
+		transform: rotate(-45deg);
+		left: 30%;
+	}
+	40%{
+		transform: rotate(0deg);
+		left: 40%;
+	}
+	50%{
+		transform: rotate(-45deg);
+		left: 50%;
+	}
+	60%{
+		transform: rotate(0deg);
+		left: 60%;
+	}
+	70%{
+		transform: rotate(-45deg);
+		left: 70%;
+	}
+	80%{
+		transform: rotate(0deg);
+		left: 80%;
+	}
+	90%{
+		transform: rotate(-45deg);
+		left: 90%;
+	}
+	100%{
+		transform: rotate(0deg);
+		left: 100%;
+	}
+}
+
+@keyframes pacman2{
+	0%{
+		transform: rotate(0deg);
+		left: 0%;
+	}
+	10%{
+		transform: rotate(45deg);
+		left: 10%;
+	}
+	20%{
+		transform: rotate(0deg);
+		left: 20%;
+	}
+	30%{
+		transform: rotate(45deg);
+		left: 30%;
+	}
+	40%{
+		transform: rotate(0deg);
+		left: 40%;
+	}
+	50%{
+		transform: rotate(45deg);
+		left: 50%;
+	}
+	60%{
+		transform: rotate(0deg);
+		left: 60%;
+	}
+	70%{
+		transform: rotate(45deg);
+		left: 70%;
+	}
+	80%{
+		transform: rotate(0deg);
+		left: 80%;
+	}
+	90%{
+		transform: rotate(45deg);
+		left: 90%;
+	}
+	100%{
+		transform: rotate(0deg);
+		left: 100%;
+	}
+}
